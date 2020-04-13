@@ -1,0 +1,332 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*    sticky css*/
+    .sticky .menu-btn {
+        padding: 8px 10px;
+    }
+
+    /*    about css*/
+    .about-area .mob-img {
+        margin-left: 0px;
+    }
+
+    /*    awesome team css*/
+    .team-social {
+        width: 100%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*    sticky css*/
+    .sticky .menu-btn {
+        padding: 8px 10px;
+    }
+
+    /*    banner css*/
+    .banner-area .banner-slide .overlay {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .banner-text {
+        padding-top: 30px;
+    }
+
+    .menu-btn {
+        padding: 5px 15px;
+        position: absolute;
+        left: 76%;
+    }
+
+    /*    navber css*/
+    .navbar-nav.ml-auto {
+        background: #244a618a;
+        padding: 0 30px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 30px 0;
+    }
+
+    .fa.fa-bars {
+        color: #fff;
+        font-size: 30px;
+        border: 0;
+    }
+
+    /*    about css*/
+    .about-area p {
+        text-align: justify;
+    }
+
+    .about-area span {
+        text-align: justify;
+        display: block;
+    }
+
+    /*    aweasome features*/
+    .awesome-area .awesome-img {
+        text-align: right;
+    }
+
+    .globle-text h4 {
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .globle-text p {
+        margin-bottom: 10px;
+    }
+
+    .globle-text span {
+        padding-bottom: 25px;
+        display: inline-block;
+    }
+
+    /*    team css*/
+    .team-social {
+        width: 100%;
+    }
+
+    .team-text {
+        padding: 5px;
+        transform: translateY(-100%) -webkit-transform: translateY(-100%)
+    }
+
+    .team-text h3 {
+        margin-bottom: 10px;
+    }
+
+    .team-text p {
+        margin-top: 10px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+     .sticky .menu-btn {
+        padding: 8px 10px;
+    }
+
+    /*    banner css*/
+    .banner-area .banner-slide .overlay {
+	padding-bottom: 65px;
+}
+
+    .banner-text {
+	padding-top: 45px;
+}
+    .banner-text h1 {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+    .banner-text > h3 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+    .banner-text hr {
+	margin-bottom: 20px;
+}
+    .banner-text p {
+	margin-bottom: 45px;
+}
+
+    .menu-btn {
+        padding: 5px 15px;
+        position: absolute;
+        left: 68%;
+    }
+
+    /*    navber css*/
+    .navbar-nav.ml-auto {
+        background: #244a618a;
+        padding: 0 30px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 30px 0;
+    }
+
+    .fa.fa-bars {
+        color: #fff;
+        font-size: 30px;
+        border: 0;
+    }
+
+    /*    about css*/
+    .about-area h1 {
+	margin-top: 45px;
+}
+    .about-area p {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .about-area span {
+        text-align: justify;
+        display: block;
+        margin-bottom: 10px
+    }
+    .about-area .mob-img {
+	margin-top: 45px;
+	width: 270px;
+}
+    .mob-img img {
+	width: 100%;
+}
+
+    /*    aweasome features*/
+    .awesome-area .awesome-img {
+	width: 230px;
+    height: 445px;
+	margin-left: 24px;
+}
+    .awesome-img img {
+	width: 100%;
+    height: 100%;
+}
+    .globle-text {
+	margin-top: 25px;
+}
+
+    .globle-text h4 {
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .globle-text p {
+        margin-bottom: 10px;
+    }
+
+    .globle-text span {
+        padding-bottom: 25px;
+        display: inline-block;
+    }
+
+/* team css*/
+    .team-social {
+        width: 100%;
+    }
+
+    .team-text {
+        padding: 5px;
+        transform: translateY(-100%) -webkit-transform: translateY(-100%)
+    }
+
+    .team-text h3 {
+        margin-bottom: 10px;
+    }
+
+    .team-text p {
+        margin-top: 10px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*    banner css*/
+    .banner-area .banner-slide .overlay {
+	padding-bottom: 50px;
+}
+    .banner-area .slick-dots {
+	right: 20px;
+	top: 30%;	
+}
+    .navbar-nav.ml-auto {
+        background: #244a618a;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 10px 0;
+    }
+
+    .fa.fa-bars {
+        color: #fff;
+        font-size: 30px;
+        border: 0;
+    }
+     .banner-text {
+	padding-top: 70px;
+}
+    .banner-text h1 {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+    .banner-text > h3 {
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+    .banner-text hr {
+	margin-bottom: 20px;
+}
+    .banner-text p {
+	margin-bottom: 45px;
+}
+    .menu-btn {
+	margin-left: 110px;
+	margin-top: 10px;
+}
+    .banner-text .ban-btn {
+	margin-bottom: 10px;
+}
+/*    about css*/
+    .about-area h1 {
+	margin-top: 35px;
+}
+   .about-area .mob-img {
+	width: 270px;
+	margin-left: 7px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+    .mob-img img {
+	width: 100%;
+}
+/*    awesome feuture*/
+    .globle-text span {
+	padding-bottom: 50px;
+}
+   .globle-text h4 {
+	padding-top: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+   /* team css*/
+    .single-team {
+	margin-bottom: -50px;
+	
+}
+    .team-social {
+        width: 100%;
+    }
+
+    .team-text {
+        padding: 5px;
+        transform: translateY(-100%) -webkit-transform: translateY(-100%)
+    }
+
+    .team-text h3 {
+        margin-bottom: 10px;
+    }
+
+    .team-text p {
+        margin-top: 10px;
+    } 
+    
+    
+/*    footer css*/
+    .footer-icon a {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+}
+}
